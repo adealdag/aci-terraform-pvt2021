@@ -98,7 +98,7 @@ This demo provision a multi-site configuration including some pieces defined on 
 
 The NDO part contains 3 templates: one stretched, and one local per site. Some objects are local-only, while others (most) are stretched.
 
-On the APIC side, a local L3OUT is configured on each site using the module aci-terraform-l3out published in [https://github.com/adealdag/terraform-aci-l3out]
+On the APIC side, a local L3OUT is configured on each site using the module aci-terraform-l3out published in [here](https://github.com/adealdag/terraform-aci-l3out)
 
 ### Considerations
 The `mso` provider configuration specifies the platform where the NDO is running, which in this case is Nexus Dashboard (platform = nd).
